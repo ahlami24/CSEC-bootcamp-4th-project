@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My to do list mini project</title>
+    <link rel="stylesheet" href="4th-project.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="todo-app">
+        <h2>
+          To Do List App
+          <img src="to-do-photo.png" alt="to-do" />
+        </h2>
+        <div class="row">
+          <input
+            type="text"
+            id="input-box"
+            placeholder="Add your program here"
+          />
+          <button onclick="addTask()">add</button>
+        </div>
+        <ul id="list-container"></ul>
+        <div class="clearall">
+          <div class="stats">
+            <p>Total Todos: <span id="totalCount">0</span></p>
+            <p>Completed Todos: <span id="completedCount">0</span></p>
+          </div>
+          <button id="clearAllBtn" type="button" onclick="" class="clear-btn">
+            Clear All
+          </button>
+        </div>
+      </div>
+      <div class="footer">
+        <address>
+          <p>Abdulaziz a&a</p>
+          <p>Adama</p>
+          <p>Ethiopia</p>
+          <p>@All right reserved</p>
+        </address>
+      </div>
+    </div>
+    <script src="4th-project.js"></script>
+  </body>
+</html>
